@@ -8,20 +8,13 @@
     }
   },
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
     "MotleyFlash.AspNetCore.Mvc": {
       "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "http://localhost:5000",
+      "launchBrowser": false,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "http://0.0.0.0:8090/"
     }
   }
 }
